@@ -1,0 +1,198 @@
+/* AUTO=body_background */ 
+body { 
+    background: url(http://i99.beon.ru/66.media.tumblr.com/fb00c0ed772f4e0ffba2ed4c1f69372f/tumblr_o0gv2w2X6k1qdj91io1_1280.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* VARIABLES */
+
+:root {
+    --color1: #F8CCE6;
+    --color2: #BD7BB8;
+    --color3: #2B377A;
+    --color4: #479DCC;
+    --color5: #9CCFEA;
+    --color6: #C3C4FC;
+    --mainFontSize: 16px;
+}
+
+
+/* END VARIABLES */
+
+body {
+    background-color: var(--color1)
+}
+
+/* ----------delete------------ */
+.b-feedback, .b-to-top.active, header .notice, .to-top-fix {
+    display: none;
+}
+
+/* ------- hide --------------- */
+
+footer.l-footer {
+    visibility: hidden;
+}
+
+/* -- -------end delete-------- */
+
+
+/* --------------avatar----------- */
+.menu .avatar, div.avatar img, header a img {
+    border-radius: 50%;
+}
+/* --------------- end avatar ------------- */
+
+/* ---------FONTS------------ */
+
+body {
+    font-size: inherit;
+}
+
+header.head h1, header.head h2 {
+    color: var(--color2)
+}
+
+.l-top_menu a {
+    font-size: inherit;
+}
+
+@media only screen and (min-width: 1025px){
+.l-top_menu .menu-items>.entry>a {
+        font-size: var(--mainFontSize);
+    }
+}
+
+/*--------- END FONTS -----------*/
+
+/* -----------scrollbar------------- */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-button {
+    background-image: url(4oel);
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: var(--color4)!important;
+    transition: 0.5s ease-out!important;
+}
+::-webkit-scrollbar-track {
+    background: var(--color3);
+}
+/* -----------end scrollbar------------- */
+
+
+
+/* --------- MENU ------- */
+header.l-top_menu {
+    position: fixed;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+    background: none;
+}
+
+.l-top_menu .inner {
+    position: relative;
+    background-color: var(--color3);
+    /* border-radius: 29px; */
+    padding-right: 50px;
+    padding-left: 140px;
+}
+
+@media only screen and (min-width: 1025px) {
+.l-top_menu .menu-items {
+    margin-left: 0;
+    white-space: nowrap;
+    }
+}
+
+.l-top_menu .inner>a {
+    position: absolute;
+    left: 8px;
+    top: 9px; 
+}
+
+.logo:after {
+    content: 'SHIKIMORI ♡';
+    font-size: 20px;
+    color: var(--color1);
+    /* font-family: 'Comfortaa' */
+}
+
+.l-top_menu .inner .logo {
+    background: none;
+    width: 125px;
+}
+  
+.menu.menu-items {
+    height: 58px;
+}
+
+@media only screen and (min-width: 1025px) {
+.l-top_menu .menu > .entry > a, .x1000 .l-top_menu .menu > .entry > a {
+    padding: 16px 12px 12px;
+    text-transform: uppercase;
+}}
+
+@media only screen and (min-width: 1025px) {
+.l-top_menu .menu-items>.entry.calendar>a, .l-top_menu .menu-items>.entry.info>a {
+    margin-left: 0 !important;
+    line-height: 28px;
+    padding-top: 10px;
+    margin-bottom: -2px;
+    }
+}
+
+
+.l-top_menu .menu > .entry.b-main_search {
+    padding: 13px 10px !important;
+}
+
+.b-main_search .input input {
+    font-size: 12px;
+    line-height: 12px;
+    width: 90%!important;
+}
+
+@media only screen and (min-width: 1025px) {
+    .l-top_menu .menu-items>.entry.calendar>a, .l-top_menu .menu-items>.entry.info>a {
+        margin-left: 0 !important;
+        line-height: 28px;
+        padding-top: 5px;
+        margin-bottom: -2px;
+    }
+}
+
+.menu .contest {
+    background: transparent;
+}
+
+/* ---------END MENU ------- */
+
+
+
+.l-page {
+    margin-top: 60px;
+    border: 1px solid var(--color3);
+    background-color: rgba(43, 55, 122, 0.9);
+    /* border-radius: 50px; */
+}
+
+.x1200 .l-page {
+    max-width: 1050px;
+}
+  
+.b-comments-notifier {top: 33px !important;}

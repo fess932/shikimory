@@ -1,0 +1,451 @@
+body {
+    margin: auto;
+    background-image: url(http://www.hdwallpaperup.com/wp-content/uploads/2015/06/Chocolate-Texture-Wallpaper-1024x768.jpg);
+    background-color: #986747;
+    background-size: 20%;
+    background-attachment: fixed;
+    font-family:'Pacifico';
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(100,84,94);
+  }
+  
+  
+  
+  /* шрифты */
+  
+  .p-profiles .profile-head .c-brief header .notice, .b-stats_bar .stat_names, .p-profiles .profile-head .c-history .entry .misc, .b-catalog_entry .cover, .b-block_list li {
+    font-size: 14px;
+  }
+  
+  .b-options-floated, .b-catalog_entry .cover .misc {
+    font-size: 12px;
+  }
+  
+  a {
+    color: rgba(78, 46, 40, 1);
+  }
+  
+  /* удаление групп */
+  
+  .cc-2a>.c-column:nth-of-type(2) {
+    display: none;
+  }
+  
+  .p-profiles .profile-content .cc-2 > .c-column {
+      width: 100%;
+  }
+  
+  .p-profiles .profile-content .cc-2 .c-left {
+      width: 77%;
+      height: 195px;
+      padding-right: 3.5rem;
+      margin-bottom: 1.5rem;
+  }
+  
+  .p-profiles .profile-content .cc-2 .c-right .cc-2a {
+      position: absolute;
+      top: -21px;
+      right: 0;
+      width: 223px;
+      margin: -200px 5px 0 0;
+  }
+  
+  .profile-content .cc-2a>.c-column {
+    width: 100%;
+  }
+  
+  
+  .headline,
+  .midheadline,
+  .subheadline {
+    background-color: rgba(78, 46, 40, 1);
+    color: rgb(229,200,161);
+    border-color: rgb(229,200,161)
+  }
+  
+  
+  .headline > a,
+  .midheadline > a,
+  .subheadline > a {
+    color: rgb(229,200,161);
+  }
+  
+  
+  body:before {
+    z-index: 1000;
+    content: '';
+    display: block;
+    width: 100px;
+    height: 150px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: url(https://imgur.com/KN1XI2y.png) no-repeat;
+    background-size: cover;
+  }
+  
+  body:after {
+    z-index: 1000;
+    content: '';
+    display: block;
+    width: 100px;
+    height: 150px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: url(https://imgur.com/ROuRYv7.png) no-repeat;
+    background-size: cover;
+  }
+  
+  .avatar img, .b-comments header img {
+    border-radius: 50% !important;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.5);
+  }
+  
+  .b-feedback, .copyright {
+    display: none;
+  }
+  
+  .l-page {
+    margin-top: 46px;
+    margin-bottom: 46px;
+    width: 1000px;
+    /* background: rgba(220, 220, 220, 0.90); */
+    background: rgba(233, 211, 200, 0.6);
+     
+    border-radius: 5px;
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+  
+  .spnsrs_vgtrk_x1170 {
+    max-width: 970px;
+  }
+  
+  .l-top_menu .inner {
+    color: rgba(229,200,161, 1);
+    box-sizing: border-box;
+    position: fixed;
+    left: 50%;
+    margin-left: -500px;
+    background: rgba(60,30,30, 1);
+    width: 1000px;
+    
+    padding-top: auto;
+    padding-bottom: auto;
+    
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.3);
+    
+    max-height: 46px;
+  }
+  
+  .to-top-fix, .l-top_menu {
+      background: none;
+      border: none;
+  }
+  
+  
+  
+  .l-top_menu .menu-items>.entry:hover {
+      background: rgb(47,51,74);
+      color: inherit;
+  }
+  
+  .l-top_menu .menu-userbox>.entry {
+    color: inherit;
+  }
+  
+  
+  .l-top_menu .submenu, .b-main_search ul.popup {
+    border-color: rgba(229,200,161, 1);
+    border: 2px solid;
+    border-top: none;
+  }
+  
+  .menu .submenu .entry, .b-main_search ul.popup,  .b-main_search ul.popup .active, .b-main_search ul.popup li {
+    background: rgba(78,46,40, 1);
+    border-bottom: 1px solid rgba(229,200,161, 1); 
+    font-family: inherit;
+    color: rgba(229,200,161, 1);
+  }
+  
+  .b-main_search ul.popup {
+    border-bottom: none;
+  }
+  
+  .menu .contest:before {
+    color: rgba(60,30,30, 1);
+  }
+  
+  .l-top_menu .menu-items>.entry>.contest {
+      margin: 13px 5px 0 0;
+  }
+  
+  .menu .unread-count, .menu .contest {
+    background-color: rgba(229,200,161, 1);
+    color: rgba(60,30,30, 1);
+  }
+  
+  .menu .entry.calendar, .menu .entry.info {
+    height: 100%;
+  }
+  
+  
+  
+  
+  .l-top_menu .inner .menu {
+  
+  }
+  
+  .l-top_menu .inner .menu .entry a{
+    
+  }
+  
+  .b-main_search .input {
+    padding: 4px 5px;
+    height: 25px !important;
+    width: 189px !important;
+  }
+  
+  .b-main_search .input input {
+    margin-top: 2px;
+    font-size: 12px;
+  }
+  
+  
+  .l-top_menu .menu-items>.entry>a {
+      font-size: 14px !important;
+      line-height: 39px;
+  }
+  
+  .l-top_menu .menu-items>.entry.calendar>a, .l-top_menu .menu-items>.entry.info>a {
+      font-size: 14px !important;
+      line-height: 39px;
+  }
+  
+  .l-top_menu .menu-items>.entry {
+    color: inherit;
+  }
+  
+  
+  
+  .l-top_menu .inner .logo {
+      height: 46px;
+      background-position: center;
+      padding: 0.38rem 2px;
+      padding-left: 14px;
+      background: none;
+      width: 8rem;
+      height: 46px;
+      margin: 0;
+  }
+  
+  .l-top_menu .inner .logo:before {
+      content: 'Иван ♥ Инна';
+      font-size: 18px;
+      color: rgb(229,200,161);
+      font-family: 'Pacifico';
+  }
+  
+  .b-stats_bar .bar {
+      border-radius: 3px;
+      height: 18px;
+      overflow: hidden;
+      position: relative;
+      white-space: nowrap;
+      width: 100%;
+      
+  }
+  
+  .b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third {
+      line-height: 18px;
+  }
+  
+  .b-stats_bar.anime .bar .first, .b-stats_bar.manga .bar .first{
+      background: rgba(78,46,40, 1);
+  }
+  
+  .b-stats_bar.anime .bar .second, .b-stats_bar.manga .bar .second {
+      background: rgba(78,46,40, 0.7);
+  }
+  
+  .b-stats_bar.anime .bar .thrid, .b-stats_bar.manga .bar .thrid {
+      background: rgba(78,46,40, .2);
+  }
+  
+  
+  /* бары под активностью на сайте */
+  .bar.simple .bar.s3 {
+    background: rgba(78,46,40, 0.7);
+  }
+  .bar.simple .bar:hover.s3 {
+    background: rgba(78,46,40, 0.6);
+  }
+  .bar.simple .bar.s2 {
+    background: rgba(78,46,40, 0.8);
+  }
+  .bar.simple .bar:hover.s2 {
+    background: rgba(78,46,40, 0.6);
+  }
+  .bar.simple .bar.s1 {
+    background: rgba(78,46,40, 0.9);
+  }
+  .bar.simple .bar:hover.s1 {
+    background: rgba(78,46,40, 0.6);
+  }
+  .bar.simple .bar.s0 {
+    background: rgba(78,46,40, 1);
+  }
+  .bar.simple .bar:hover.s0 {
+    background: rgba(78,46,40, 0.6);
+  }
+  
+  .bar.vertical {
+    border-bottom: 1px solid rgba(78,46,40, 1);
+  }
+  
+  
+  
+  
+  .p-profiles-show .profile-content .lifetime, .p-profiles .profile-head .c-info .c-additionals, .p-profiles-show.x1000 .profile-content .graph.x34 {
+      display: none;
+  }
+  
+  .p-profiles .profile-head .c-history .entry .misc, .p-profiles .profile-head .c-history .entry .misc.date {
+    color: inherit !important;
+  }
+  
+  input, select, button, textarea, .b-main_search .input input, .b-block_list li {
+    font-family: inherit;
+  }
+  
+  .b-button, .b-form input[type=submit] {
+    background-color: rgba(78,46,40, 1);
+    color: rgba(229,200,161, 1);
+  }
+  
+  header.head h1, header.head h2 {
+    font-family: inherit;
+    color: rgba(60,30,30, 1);
+  } 
+  
+  .p-profiles .profile-head .c-brief header .notice span:after, .b-stats_bar .stat_names .stat_name .size:before, .b-stats_bar .stat_names .stat_name .size:after, .b-stats_bar .stat_names .stat_name:after {
+    color: rgba(60,30,30, 1);
+  }
+  
+  
+  
+  /* списки */
+  
+  .b-table tr.border {
+    border-color: rgba(60,30,30, 1);
+  }
+  
+  
+  .p-user_rates-index .list-lines tr .index, .p-user_rates-index .list-lines tr .name a {
+    color: rgba(60,30,30, 1);
+  }
+  
+  
+  
+  
+  /* cyrillic */
+  @font-face {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: bold;
+    src: local("Comfortaa Bold"), local("Comfortaa-Bold"),
+      url(//fonts.gstatic.com/s/comfortaa/v8/fND5XPYKrF2tQDwwfWZJIxdwxCXfZpKo5kWAx_74bHs.woff2)
+        format("woff2");
+    unicode-range: U+0normal-045f, U+0490-0491, U+04b0-04b1, U+2116;
+  }
+  
+  
+  
+  
+  /* new font */
+  
+  /* cyrillic */
+  @font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6D6MmTpA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  
+  /* latin */
+  @font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6Mk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  
+  body,
+  label {
+    cursor: url(https://78.media.tumblr.com/tumblr_lkl6vh7giB1qfamg6.gif), default !important;
+  }
+  
+  
+  *:before {pointer-events: none;}
+  
+  
+  a,
+  hover,
+  before,
+  after,
+  active,
+  .popup li,
+  .input input,
+  .submenu
+  .menu-search,
+  .entry,
+  .userbox,
+  .cover,
+  .title,
+  .add-trigger,
+  .remove-trigger,
+  .trigger-arrow,
+  .trigger,
+  .text,
+  .option,
+  .edit,
+  .watching,
+  .rewatching,
+  .close,
+  .expand span,
+  .plus,
+  .b-tooltipped,
+  input,
+  .preview,
+  .unpreview,
+  .value,
+  .div,
+  .slide,
+  .b-to-top,
+  .leave,
+  .invite,
+  .upload,
+  .invite span,
+  .b-spoiler label,
+  .b-poster,
+  .off,
+  .item-ignore,
+  .item-reply,
+  .b-comments-notifier,
+  .comments-loader,
+  .click-loader {
+    cursor: url(https://78.media.tumblr.com/tumblr_lkl6vh7giB1qfamg6.gif), pointer !important;
+  }
+  
+  
+  .l-top_menu .menu-items .entry:nth-of-type(8){ 
+  display: none; 
+  }
