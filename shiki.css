@@ -1,252 +1,253 @@
-        /* AUTO=body_background */
-        body {
-            background: url(http://i99.beon.ru/66.media.tumblr.com/fb00c0ed772f4e0ffba2ed4c1f69372f/tumblr_o0gv2w2X6k1qdj91io1_1280.png) no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-        }
+/* AUTO=body_background */
+body {
+    background: url(http://i99.beon.ru/66.media.tumblr.com/fb00c0ed772f4e0ffba2ed4c1f69372f/tumblr_o0gv2w2X6k1qdj91io1_1280.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 
-        /* VARIABLES */
+/* VARIABLES */
 
-        :root {
-            --color1: #F8CCE6;
-            --color2: #BD7BB8;
-            --color3: #2B377A;
-            --color4: #479DCC;
-            --color5: #9CCFEA;
-            --color6: #C3C4FC;
-            --transparentColor: rgba(43, 55, 122, 0.7);
-            --mainFontSize: 16px;
-        }
-
-
-        /* END VARIABLES */
-
-        body {
-            background-color: var(--color1)
-        }
-
-        /* ----------delete------------ */
-        .b-feedback, .b-to-top.active, header .notice, .to-top-fix {
-            display: none;
-        }
-
-        /* ------- hide --------------- */
-
-        footer.l-footer {
-            visibility: hidden;
-        }
-
-        /* -- -------end delete-------- */
+:root {
+    --color1: #F8CCE6;
+    --color2: #BD7BB8;
+    --color3: #2B377A;
+    --color4: #479DCC;
+    --color5: #9CCFEA;
+    --color6: #C3C4FC;
+    --transparentColor: rgba(43, 55, 122, 0.7);
+    --mainFontSize: 16px;
+}
 
 
-        /* --------------avatar----------- */
-        .menu .avatar, div.avatar img, header a img {
-            border-radius: 50%;
-        }
-        .c-brief {
-            position: relative;
-        }
-        .c-brief .avatar {
-            position: absolute;
-            margin: auto;
-            top: 0; bottom: 0; left: 0; right: 0;
-            height: 100px;
-        }
+/* END VARIABLES */
 
-        /* --------------- end avatar ------------- */
+body {
+    background-color: var(--color1)
+}
 
-        /* ---------FONTS------------ */
+/* ----------delete------------ */
+.b-feedback, .b-to-top.active, header .notice, .to-top-fix {
+    display: none;
+}
 
-        body {
-            font-size: inherit;
-        }
+/* ------- hide --------------- */
 
-        header.head h1, header.head h2, .b-stats_bar a.title, 
-        .b-comment>.inner header .name-date a.name,
-        .headline>a, .midheadline>a, .subheadline>a, a, .logo:after, .l-top_menu .menu-items>.entry>a,
-        .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, 
-        .b-stats_bar .stat_names .stat_name a,
-        .b-stats_bar .title,
-        .p-profiles-show .profile-content .activity .title,
-        .p-profiles .profile-head .c-history .entry .misc,
-        .p-profiles .profile-head .c-info .c-additionals b,
-        .l-top_menu .menu-items>.entry.selected, .l-top_menu .menu-items>.entry:hover,
-        .headline, .midheadline, .subheadline,
-        .b-catalog_entry .cover .title,
-        .p-profiles-show .lifetime .times .time.checked,
-        .p-profiles-show .lifetime .times .time,
-        .b-entry-info .line .key,
-        .b-entry-info .line .value,
-        body,.b-comment>.inner header .name-date .time,
+footer.l-footer {
+    visibility: hidden;
+}
 
-        .bar.horizontal .line .x_label, .b-animes-menu .total-rates, .b-show_more, .b-rate .text-score,
-        .b-rate .score-notice,.menu .unread-count, .menu .contest, 
-
-        .buttons .editor-bold, .buttons .editor-italic, 
-        .buttons .editor-underline, .buttons .editor-strike,
-        .buttons .editor-link, .buttons .editor-image,
-        .buttons .editor-quote, .buttons .editor-spoiler,
-        .buttons .editor-file, .buttons .editor-upload,
-        .buttons .editor-smiley{
-            color: var(--color1) !important;
-            background-color: transparent;
-        }
+/* -- -------end delete-------- */
 
 
-        /* выделить цвет */
-        .b-form input[type=submit], .b-shiki_editor footer input[type=submit],
-        .menu .entry:hover .unread-count, .menu .entry:hover .contest, 
-        .b-shiki_editor footer .unpreview, .b-shiki_editor footer .preview, .menu .unread-count:hover, .menu .unread-count:hover, .menu .contest:hover{
-            background-color: var(--color4) !important;
-        }
+/* --------------avatar----------- */
+.menu .avatar, div.avatar img, header a img {
+    border-radius: 50%;
+}
+.p-profiles .profile-head .c-brief {
+    position: relative;
+    margin-bottom: 123px;
+}
+.p-profiles .profile-head .c-brief .avatar {
+    position: absolute;
+    margin: auto;
+    top: 20px; bottom: 0; left: 0; right: 0;
+    height: 100px;
+}
 
-        /* выделить цвет */
+/* --------------- end avatar ------------- */
 
-        .b-form input[type=submit]:hover,
-        .b-shiki_editor footer input[type=submit]:hover,
-        .b-shiki_editor footer .unpreview:hover,
-        .b-shiki_editor footer .preview:hover{
-            background-color: var(--color1);
-        }
+/* ---------FONTS------------ */
 
-        .l-top_menu a {
-            font-size: inherit;
-        }
+body {
+    font-size: inherit;
+}
 
-        @media only screen and (min-width: 1025px){
-        .l-top_menu .menu-items>.entry>a {
-                font-size: var(--mainFontSize);
-            }
-        }
+header.head h1, header.head h2, .b-stats_bar a.title, 
+.b-comment>.inner header .name-date a.name,
+.headline>a, .midheadline>a, .subheadline>a, a, .logo:after, .l-top_menu .menu-items>.entry>a,
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, 
+.b-stats_bar .stat_names .stat_name a,
+.b-stats_bar .title,
+.p-profiles-show .profile-content .activity .title,
+.p-profiles .profile-head .c-history .entry .misc,
+.p-profiles .profile-head .c-info .c-additionals b,
+.l-top_menu .menu-items>.entry.selected, .l-top_menu .menu-items>.entry:hover,
+.headline, .midheadline, .subheadline,
+.b-catalog_entry .cover .title,
+.p-profiles-show .lifetime .times .time.checked,
+.p-profiles-show .lifetime .times .time,
+.b-entry-info .line .key,
+.b-entry-info .line .value,
+body,.b-comment>.inner header .name-date .time,
 
-        /*--------- END FONTS -----------*/
+.bar.horizontal .line .x_label, .b-animes-menu .total-rates, .b-show_more, .b-rate .text-score,
+.b-rate .score-notice,.menu .unread-count, .menu .contest, 
 
-        /* -----------scrollbar------------- */
-        ::-webkit-scrollbar {
-            width: 9px;
-        }
-
-        ::-webkit-scrollbar-button {
-            background-image: url(4oel);
-            background-repeat: no-repeat;
-            width: 5px;
-            height: 0px;
-        }
-        ::-webkit-scrollbar-thumb {
-            -webkit-border-radius: 0px;
-            border-radius: 0px;
-            background: var(--color4)!important;
-            transition: 0.5s ease-out!important;
-        }
-        ::-webkit-scrollbar-track {
-            background: var(--transparentColor);
-        }
-        /* -----------end scrollbar------------- */
-
-
-
-        /* --------- MENU ------- */
-        header.l-top_menu {
-            background-color: transparent;
-            top: 0;
-            left: 0;
-            right: 0;
-            border: 0;
-            background: none;
-        }
-
-        .l-top_menu .inner {
-            position: relative;
-            background-color: var(--transparentColor);
-            /* border-radius: 29px; */
-            padding-right: 50px;
-            padding-left: 140px;
-        }
-
-        @media only screen and (min-width: 1025px) {
-        .l-top_menu .menu-items {
-            margin-left: 0;
-            white-space: nowrap;
-            }
-        }
-
-        .l-top_menu .inner>a {
-            position: absolute;
-            left: 8px;
-            top: 9px;
-        }
-
-        .logo:after {
-            content: 'SHIKIMORI ♡';
-            font-size: 20px;
-            /* color: var(--color4); */
-            /* font-family: 'Comfortaa' */
-        }
-
-        .l-top_menu .inner .logo {
-            background: none;
-            width: 135px;
-        }
-
-        .menu.menu-items {
-            height: 58px;
-        }
-
-        @media only screen and (min-width: 1025px) {
-        .l-top_menu .menu > .entry > a, .x1000 .l-top_menu .menu > .entry > a {
-            padding: 16px 12px 12px;
-            text-transform: uppercase;
-        }}
-
-        @media only screen and (min-width: 1025px) {
-        .l-top_menu .menu-items>.entry.calendar>a, .l-top_menu .menu-items>.entry.info>a {
-            margin-left: 0 !important;
-            line-height: 28px;
-            padding-top: 10px;
-            margin-bottom: -2px;
-            }
-        }
+.buttons .editor-bold, .buttons .editor-italic, 
+.buttons .editor-underline, .buttons .editor-strike,
+.buttons .editor-link, .buttons .editor-image,
+.buttons .editor-quote, .buttons .editor-spoiler,
+.buttons .editor-file, .buttons .editor-upload,
+.buttons .editor-smiley{
+    color: var(--color1) !important;
+    background-color: transparent;
+}
 
 
-        .l-top_menu .menu > .entry.b-main_search {
-            padding: 13px 10px !important;
-        }
+/* выделить цвет */
+.b-form input[type=submit], .b-shiki_editor footer input[type=submit],
+.menu .entry:hover .unread-count, .menu .entry:hover .contest, 
+.b-shiki_editor footer .unpreview, .b-shiki_editor footer .preview, .menu .unread-count:hover, .menu .unread-count:hover, .menu .contest:hover{
+    background-color: var(--color4) !important;
+}
 
-        .b-main_search .input input {
-            font-size: 12px;
-            line-height: 12px;
-            width: 90%!important;
-        }
+/* выделить цвет */
 
-        @media only screen and (min-width: 1025px) {
-            .l-top_menu .menu-items>.entry.calendar>a, .l-top_menu .menu-items>.entry.info>a {
-                margin-left: 0 !important;
-                line-height: 28px;
-                padding-top: 5px;
-                margin-bottom: -2px;
-            }
-        }
+.b-form input[type=submit]:hover,
+.b-shiki_editor footer input[type=submit]:hover,
+.b-shiki_editor footer .unpreview:hover,
+.b-shiki_editor footer .preview:hover{
+    background-color: var(--color1);
+}
 
-        .menu .contest {
-            background: transparent;
-        }
+.l-top_menu a {
+    font-size: inherit;
+}
 
-        /* ---------END MENU ------- */
+@media only screen and (min-width: 1025px){
+.l-top_menu .menu-items>.entry>a {
+        font-size: var(--mainFontSize);
+    }
+}
+
+/*--------- END FONTS -----------*/
+
+/* -----------scrollbar------------- */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-button {
+    background-image: url(4oel);
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: var(--color4)!important;
+    transition: 0.5s ease-out!important;
+}
+::-webkit-scrollbar-track {
+    background: var(--transparentColor);
+}
+/* -----------end scrollbar------------- */
 
 
 
-        .l-page {
-            margin-top: 40px;
-            border: 1px solid var(--color3);
-            background-color: var(--transparentColor);
-            /* border-radius: 50px; */
-        }
+/* --------- MENU ------- */
+header.l-top_menu {
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+    background: none;
+}
 
-        .x1200 .l-page {
-            max-width: 1050px;
-        }
+.l-top_menu .inner {
+    position: relative;
+    background-color: var(--transparentColor);
+    /* border-radius: 29px; */
+    padding-right: 50px;
+    padding-left: 140px;
+}
 
-        .b-comments-notifier {top: 33px !important;}
+@media only screen and (min-width: 1025px) {
+.l-top_menu .menu-items {
+    margin-left: 0;
+    white-space: nowrap;
+    }
+}
+
+.l-top_menu .inner>a {
+    position: absolute;
+    left: 8px;
+    top: 9px;
+}
+
+.logo:after {
+    content: 'SHIKIMORI ♡';
+    font-size: 20px;
+    /* color: var(--color4); */
+    /* font-family: 'Comfortaa' */
+}
+
+.l-top_menu .inner .logo {
+    background: none;
+    width: 135px;
+}
+
+.menu.menu-items {
+    height: 58px;
+}
+
+@media only screen and (min-width: 1025px) {
+.l-top_menu .menu > .entry > a, .x1000 .l-top_menu .menu > .entry > a {
+    padding: 16px 12px 12px;
+    text-transform: uppercase;
+}}
+
+@media only screen and (min-width: 1025px) {
+.l-top_menu .menu-items>.entry.calendar>a, .l-top_menu .menu-items>.entry.info>a {
+    margin-left: 0 !important;
+    line-height: 28px;
+    padding-top: 10px;
+    margin-bottom: -2px;
+    }
+}
+
+
+.l-top_menu .menu > .entry.b-main_search {
+    padding: 13px 10px !important;
+}
+
+.b-main_search .input input {
+    font-size: 12px;
+    line-height: 12px;
+    width: 90%!important;
+}
+
+@media only screen and (min-width: 1025px) {
+    .l-top_menu .menu-items>.entry.calendar>a, .l-top_menu .menu-items>.entry.info>a {
+        margin-left: 0 !important;
+        line-height: 28px;
+        padding-top: 5px;
+        margin-bottom: -2px;
+    }
+}
+
+.menu .contest {
+    background: transparent;
+}
+
+/* ---------END MENU ------- */
+
+
+
+.l-page {
+    margin-top: 40px;
+    border: 1px solid var(--color3);
+    background-color: var(--transparentColor);
+    /* border-radius: 50px; */
+}
+
+.x1200 .l-page {
+    max-width: 1050px;
+}
+
+.b-comments-notifier {top: 33px !important;}
